@@ -1,11 +1,12 @@
 package com.yerdaulet.moviebrowser.ui.detail.fragments
+
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MediatorLiveData
-import com.android.myapplication.movies.models.MovieDetails
-import com.android.myapplication.movies.repository.MovieDetailRepository
-import com.android.myapplication.movies.util.Resource
+import com.yerdaulet.moviebrowser.models.MovieDetails
+import com.yerdaulet.moviebrowser.repository.MovieDetailRepository
+import com.yerdaulet.moviebrowser.util.Resource
 import com.android.myapplication.popularmovies.api.model.Movie
 
 class DetailFragmentViewModel(app: Application, private val repository: MovieDetailRepository, val movie: Movie) : AndroidViewModel(app) {

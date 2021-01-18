@@ -6,7 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.android.myapplication.movies.databinding.FragmentCastBinding
+import com.yerdaulet.moviebrowser.databinding.FragmentCastBinding
 import org.koin.androidx.viewmodel.ext.android.sharedViewModel
 
 private const val MOVIE_ID_EXTRA = "movie_id_extra"

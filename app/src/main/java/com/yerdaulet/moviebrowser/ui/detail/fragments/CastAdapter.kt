@@ -1,10 +1,11 @@
 package com.yerdaulet.moviebrowser.ui.detail.fragments
+
 import androidx.recyclerview.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.DiffUtil
-import com.android.myapplication.movies.databinding.ItemCastBinding
+import com.yerdaulet.moviebrowser.databinding.ItemCastBinding
 import com.android.myapplication.popularmovies.api.model.Cast
 
 class CastAdapter(): RecyclerView.Adapter<RecyclerView.ViewHolder>() {
