@@ -2,9 +2,9 @@ package com.yerdaulet.moviebrowser.persistence.dao
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
-//import com.yerdaulet.moviebrowser.models.Movie
+import com.yerdaulet.moviebrowser.models.Movie
 import com.yerdaulet.moviebrowser.util.Category
-import com.yerdaulet.moviebrowser.popularmovies.api.model.Movie
+
 
 @Dao
 interface MovieAndDetailDao{
@@ -24,7 +24,5 @@ interface MovieAndDetailDao{
     /*LIST VIEW STATE*/
     @Query("SELECT * FROM movie WHERE title LIKE '%' || :query || '%'  LIMIT (:pageNumber*20) ")
     fun searchListMovie(query: String,pageNumber:Int): LiveData<List<Movie>>
-
-
 
 }
