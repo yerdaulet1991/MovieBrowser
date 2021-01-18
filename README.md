@@ -1,5 +1,9 @@
 # MovieBrowser
-Application for browsing information about movies uses MVVM architecture.
+Application to browse movies info
+
+MVVM architecture 
+
+API from [themoviedb.org](https://www.themoviedb.org/)
 
 ## Features
 *   detailed info about each movie - overview, reviews, cast
@@ -7,7 +11,9 @@ Application for browsing information about movies uses MVVM architecture.
 *   playing trailers on youtube 
 
 ## Libraries 
-AndroidX, Retrofit, Koin, Android Architecture Components(Room, LiveData, ViewModel), Glide, Gson, OkHttp, Material Design Components
+* Retrofit, Koin
+* AndroidX, Architecture Components (Room, LiveData, ViewModel), Material Design Components, Data binding
+* Glide, Gson, OkHttp
 
 ## Screenshots
 ![screen1](https://user-images.githubusercontent.com/57751305/104907405-3f3c5700-59af-11eb-89d0-9b9455bbc7c4.png)
@@ -19,4 +25,4 @@ AndroidX, Retrofit, Koin, Android Architecture Components(Room, LiveData, ViewMo
 
 
 
-This app uses the API from [themoviedb.org](https://www.themoviedb.org/)
+
