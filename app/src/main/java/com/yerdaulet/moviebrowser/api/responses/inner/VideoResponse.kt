@@ -1,9 +1,11 @@
 package com.yerdaulet.moviebrowser.api.responses.inner
 
-import android.provider.MediaStore
+
+
 import com.google.gson.annotations.SerializedName
+import com.yerdaulet.moviebrowser.models.Video
 
 class VideoResponse {
     @SerializedName("results")
-    val videos: List<MediaStore.Video>? = null
+    val videos: List<Video>? = null
 }
