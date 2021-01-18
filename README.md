@@ -10,7 +10,8 @@ Application for browsing information about movies uses MVVM architecture.
 AndroidX, Retrofit, Koin, Android Architecture Components(Room, LiveData, ViewModel), Glide, Gson, OkHttp, Material Design Components
 
 ## Screenshots
-![screen1](https://user-images.githubusercontent.com/57751305/104905101-19fa1980-59ac-11eb-8eb7-5ff05bf18342.png)
+![screen1](https://user-images.githubusercontent.com/57751305/104907148-d359ee80-59ae-11eb-98d2-5c4aba1fc207.png)
+
 
 
 This app uses the API from [themoviedb.org](https://www.themoviedb.org/)
