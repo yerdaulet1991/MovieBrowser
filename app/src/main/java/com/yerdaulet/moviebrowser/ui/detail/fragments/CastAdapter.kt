@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.DiffUtil
 import com.yerdaulet.moviebrowser.databinding.ItemCastBinding
-import com.android.myapplication.popularmovies.api.model.Cast
+import com.yerdaulet.moviebrowser.models.Cast
 
 class CastAdapter(): RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 

@@ -5,8 +5,8 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
-import com.android.myapplication.movies.databinding.ItemTrailerBinding
-import com.android.myapplication.popularmovies.api.model.Video
+import com.yerdaulet.moviebrowser.databinding.ItemTrailerBinding
+import com.yerdaulet.moviebrowser.models.Video
 
 class TrailerAdapter(private val onVideoClicked:(Video)->Unit) :
     RecyclerView.Adapter<RecyclerView.ViewHolder>() {

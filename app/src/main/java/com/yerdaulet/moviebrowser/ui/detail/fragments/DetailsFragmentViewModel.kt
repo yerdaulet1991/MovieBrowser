@@ -4,12 +4,12 @@ import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MediatorLiveData
+import com.yerdaulet.moviebrowser.models.Movie
 import com.yerdaulet.moviebrowser.models.MovieDetails
 import com.yerdaulet.moviebrowser.repository.MovieDetailRepository
 import com.yerdaulet.moviebrowser.util.Resource
-import com.android.myapplication.popularmovies.api.model.Movie
 
-class DetailFragmentViewModel(app: Application, private val repository: MovieDetailRepository, val movie: Movie) : AndroidViewModel(app) {
+class DetailsFragmentViewModel(app: Application, private val repository: MovieDetailRepository, val movie: Movie) : AndroidViewModel(app) {
 
 
     private val _movieDetails = MediatorLiveData<Resource<MovieDetails>>()
@@ -52,7 +52,7 @@ class DetailFragmentViewModel(app: Application, private val repository: MovieDet
     }
 
     //unregister when whole response is null or when response ==Success or Error
-    private fun unregisterMediatorLiveData(repositorySource:  LiveData<Resource<MovieDetails>>) {
+    private fun unregisterMediatorLiveData(repositorySource: LiveData<Resource<MovieDetails>>) {
         isPerformingQuery = false
         _movieDetails.removeSource(repositorySource)
     }

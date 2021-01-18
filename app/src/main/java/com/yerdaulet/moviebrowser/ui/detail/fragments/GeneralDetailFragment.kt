@@ -5,7 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.android.myapplication.movies.databinding.FragmentGeneralDetailBinding
+import com.yerdaulet.moviebrowser.databinding.FragmentGeneralDetailBinding
 import org.koin.androidx.viewmodel.ext.android.sharedViewModel
 
 /**
@@ -14,7 +14,7 @@ import org.koin.androidx.viewmodel.ext.android.sharedViewModel
 class GeneralDetailFragment : Fragment() {
 
     private lateinit var binding: FragmentGeneralDetailBinding
-    private val viewModel: DetailFragmentViewModel by sharedViewModel()
+    private val viewModel: DetailsFragmentViewModel by sharedViewModel()
 
 
     override fun onCreateView(

@@ -1,6 +1,5 @@
 package com.yerdaulet.moviebrowser.ui.detail.fragments
 
-import YOUTUBE_BASE_URL
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
@@ -8,8 +7,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.android.myapplication.movies.databinding.FragmentTrailerBinding
-import com.android.myapplication.popularmovies.api.model.Movie
+import com.yerdaulet.moviebrowser.databinding.FragmentTrailerBinding
+import com.yerdaulet.moviebrowser.util.YOUTUBE_BASE_URL
 import org.koin.androidx.viewmodel.ext.android.sharedViewModel
 import org.koin.core.parameter.parametersOf
 
@@ -21,7 +20,7 @@ private const val MOVIE_ID_EXTRA = "movie_id_extra"
 class TrailersFragment : Fragment() {
 
     private lateinit var binding: FragmentTrailerBinding
-    private val viewModel: DetailFragmentViewModel by sharedViewModel()
+    private val viewModel: DetailsFragmentViewModel by sharedViewModel()
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

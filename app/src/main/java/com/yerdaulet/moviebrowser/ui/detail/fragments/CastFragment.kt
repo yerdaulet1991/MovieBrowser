@@ -13,7 +13,7 @@ private const val MOVIE_ID_EXTRA = "movie_id_extra"
 class CastFragment : Fragment() {
 
     private lateinit var binding: FragmentCastBinding
-    private val viewModel: DetailFragmentViewModel by sharedViewModel()
+    private val viewModel: DetailsFragmentViewModel by sharedViewModel()
 
 
 

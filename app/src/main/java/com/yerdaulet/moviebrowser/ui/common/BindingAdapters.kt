@@ -1,10 +1,5 @@
 package com.yerdaulet.moviebrowser.ui.common
 
-import IMAGE_BACKDROP_FILE_SIZE
-import IMAGE_BASE_URL
-import IMAGE_FILE_SIZE
-import YOUTUBE_THUMBNAIL_BASE_URL
-import YOUTUBE_THUMBNAIL_URL_JPG
 import android.view.View
 import android.widget.ImageView
 import android.widget.ProgressBar
@@ -16,10 +11,10 @@ import com.yerdaulet.moviebrowser.models.MovieDetails
 import com.yerdaulet.moviebrowser.ui.detail.fragments.CastAdapter
 import com.yerdaulet.moviebrowser.ui.detail.fragments.ReviewAdapter
 import com.yerdaulet.moviebrowser.ui.detail.fragments.TrailerAdapter
-import com.yerdaulet.moviebrowser.util.Resource
-import com.yerdaulet.moviebrowser.api.model.*
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
+import com.yerdaulet.moviebrowser.models.Genre
+import com.yerdaulet.moviebrowser.util.*
 
 @BindingAdapter("frontImage")
 fun setFrontImage(imageView: ImageView, imageUrl: String?) {
