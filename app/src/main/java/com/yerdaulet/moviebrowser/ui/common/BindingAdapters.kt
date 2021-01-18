@@ -11,13 +11,13 @@ import android.widget.ProgressBar
 import android.widget.TextView
 import androidx.databinding.BindingAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.android.myapplication.movies.R
-import com.android.myapplication.movies.models.MovieDetails
-import com.android.myapplication.movies.ui.detail.fragments.CastAdapter
-import com.android.myapplication.movies.ui.detail.fragments.ReviewAdapter
-import com.android.myapplication.movies.ui.detail.fragments.TrailerAdapter
-import com.android.myapplication.movies.util.Resource
-import com.android.myapplication.popularmovies.api.model.*
+import com.yerdaulet.moviebrowser.R
+import com.yerdaulet.moviebrowser.models.MovieDetails
+import com.yerdaulet.moviebrowser.ui.detail.fragments.CastAdapter
+import com.yerdaulet.moviebrowser.ui.detail.fragments.ReviewAdapter
+import com.yerdaulet.moviebrowser.ui.detail.fragments.TrailerAdapter
+import com.yerdaulet.moviebrowser.util.Resource
+import com.yerdaulet.moviebrowser.api.model.*
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 
