@@ -1,3 +1,5 @@
+[![codebeat badge](https://codebeat.co/badges/9a98a784-7c26-42af-9341-153abe1d2597)](https://codebeat.co/projects/github-com-yerdaulet1991-moviebrowser-main)
+
 # MovieBrowser
 * Application to browse movies info
 * MVVM architecture 
